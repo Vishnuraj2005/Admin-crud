@@ -97,7 +97,7 @@ app.get('/userlist',(req,res)=>{
     db.query(sql,(err,result)=>{
         if(err){
            console.log(err);
-           res.status(500).send("Database Error");
+           res.send("Database Error");
         }else{
            res.send(result);
         }
