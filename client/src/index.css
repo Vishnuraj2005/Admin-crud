@@ -1,0 +1,44 @@
+/* LOGIN BG */
+
+.login {
+    background-image: url('./images/hero-food.jpg');
+    background-size: cover;
+    background-position: center;
+    opacity: 0.8;
+}
+
+/* PRODUCTS */
+
+.card {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px;
+    text-align: center;
+}
+.card img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+}
+.card h3 {
+    margin: 10px 0;
+}
+.card p {
+    color: #555;
+}
+.card button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.card button:hover {
+    background-color: #218838;
+} 
+.pro-head {
+    text-align: center;
+    margin: 20px 0;
+}
