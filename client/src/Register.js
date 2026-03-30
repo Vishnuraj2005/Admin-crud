@@ -23,6 +23,7 @@ const Register = () => {
   };
 
   return (
+    <div className="reg-bg">
     <div className="container vh-100 d-flex justify-content-center align-items-center">
       <div className="card p-4 shadow" style={{width:"350px"}}>
 
@@ -61,6 +62,7 @@ const Register = () => {
         </p>
 
       </div>
+    </div>
     </div>
   );
 };
